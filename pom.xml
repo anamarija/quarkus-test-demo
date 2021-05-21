@@ -19,6 +19,9 @@
     <surefire-plugin.version>2.22.1</surefire-plugin.version>
     <preview.arg>--enable-preview</preview.arg>
     <logmanager.class>org.jboss.logmanager.LogManager</logmanager.class>
+    <sonar.projectKey>anamarija_quarkus-test-demo</sonar.projectKey>
+    <sonar.organization>anamarija</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
   <dependencyManagement>
     <dependencies>
