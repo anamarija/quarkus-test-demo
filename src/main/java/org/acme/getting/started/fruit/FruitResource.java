@@ -14,4 +14,9 @@ public class FruitResource {
 	public List<Fruit> fruits() {
 		return Fruit.listAll();
 	}
+
+	@GET
+	public String hello(){
+		return "Hello world!";
+	}
 }
